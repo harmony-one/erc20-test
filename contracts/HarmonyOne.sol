@@ -1,4 +1,4 @@
-pragma solidity >=0.4.25 <0.6.0;
+pragma solidity ^0.5.0;
 
 // ----------------------------------------------------------------------------
 // 'HarmonyOne' token contract
@@ -113,7 +113,7 @@ contract HarmonyOne is ERC20Interface, Owned, SafeMath {
         symbol = "ONE";
         name = "HarmonyOne";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
+        _totalSupply = 12600000000000000000000000000;
         balances[0xE25ABC3f7C3d5fB7FB81EAFd421FF1621A61107c] = _totalSupply;
         emit Transfer(address(0), 0xE25ABC3f7C3d5fB7FB81EAFd421FF1621A61107c, _totalSupply);
     }
