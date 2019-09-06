@@ -6,7 +6,7 @@ pragma solidity ^0.5.0;
 // Deployed to : 
 // Symbol      : ONE
 // Name        : HarmonyOne
-// Total supply: 100000000
+// Total supply: 12,600,000,000
 // Decimals    : 18
 //
 // ----------------------------------------------------------------------------
